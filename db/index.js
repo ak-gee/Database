@@ -116,7 +116,7 @@ app.get("/student/:id",(req,res)=>{
  
 
 let port = 3000;
-app.listen(port,() =>{
+app.listen(process.env.PORT || port,() =>{
     console.log(`Port open on ${port}`)
 })
 
