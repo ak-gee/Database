@@ -1,0 +1,18 @@
+Deployed in heroku
+Write using postman to the deployment link shared
+https://(name).herokuapp.com/student
+POST the following data
+
+    {
+        "name":"Student_3"
+        
+
+    }
+https://(name).herokuapp.com/mentor
+POST the following data
+
+    {
+        "name":"Mentor1"
+        
+
+    }
