@@ -1,7 +1,13 @@
 const express = require("express");
 const app = express();
-const bodyParser =  require("body-parser");
-app.use(bodyParser.json());
+const cors= require("cors");
+
+app.use(express.json());
+app.use(cors({
+    // origin:"http://127.0.0.1:5500"
+    // origin:"http://localhost:3000"
+    origin:"https://dazzling-snyder-b40814.netlify.app"
+}))
 
 let students = [];
 let mentors = [];
